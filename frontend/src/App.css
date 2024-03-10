@@ -1,0 +1,25 @@
+
+.cl{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-inline: 20px;
+  
+  
+}
+/* .navBar{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  z-index: 2;
+} */
+
+
+
+ .cl:has(:hover) .cc{
+  opacity: 0.4;
+ }
